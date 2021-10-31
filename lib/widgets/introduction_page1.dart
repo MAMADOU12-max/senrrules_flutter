@@ -14,7 +14,7 @@ class _IntroductionPage1State extends State<IntroductionPage1> {
     return Scaffold(
         body: SingleChildScrollView(
           child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 35.0),
+            padding: EdgeInsets.only(top: 35.0, right: 30, left: 30),
              child: Center(
                child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,

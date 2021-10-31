@@ -91,7 +91,7 @@ class _IntroductionPage2State extends State<IntroductionPage2> {
                 ),
                 Padding(padding: EdgeInsets.all(12)),
                 SizedBox(
-                  width: 280.0,
+                  width: MediaQuery.of(context).size.width,
                   height: 40.0,
                   child: ElevatedButton(
                     onPressed: () {
